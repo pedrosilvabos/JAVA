@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26d7a3f9-08eb-4ca9-8850-bf1d5f0a8b41" name="Default Changelist" comment="">
+    <list default="true" id="b0cf736d-8052-41fa-a51b-1dbc8b629b7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AddAll/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddAll/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddAll/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddAll/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddAll/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddAll/AddAll.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddAll/src/AddAll/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ArraylistProgram/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ArraylistProgram/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ArraylistProgram/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ArraylistProgram/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ArraylistProgram/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ArraylistProgram/ArraylistProgram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectionMethodSort/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectionMethodSort/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CollectionMethodSort/src/CollectionMethodSort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConvertingListsToArrays/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConvertingListsToArrays/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LinkedList/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LinkedList/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReverseAndCopyMethod/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReverseAndCopyMethod/src/ReverseAndCopyMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StackPushPop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackPushPop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frequencyAndDisjoint/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frequencyAndDisjoint/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frequencyAndDisjoint/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frequencyAndDisjoint/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frequencyAndDisjoint/frequencyAndDisjoint.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collections/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../collections/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collections/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collections/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,12 +54,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/StackPushPop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+            <state relative-caret-position="343">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#137#145#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,8 +80,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../README.md" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/StackPushPop.java" />
       </list>
     </option>
   </component>
@@ -67,29 +96,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="collections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="collections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="StackPushPop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StackPushPop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553032246346" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../README.md" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553040101448" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,16 +127,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="collections" />
+    <configuration name="StackPushPop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackPushPop" />
+      <module name="StackPushPop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StackPushPop" />
       </list>
     </recent_temporary>
   </component>
@@ -122,29 +145,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="26d7a3f9-08eb-4ca9-8850-bf1d5f0a8b41" name="Default Changelist" comment="" />
-      <created>1552962066223</created>
+      <changelist id="b0cf736d-8052-41fa-a51b-1dbc8b629b7a" name="Default Changelist" comment="" />
+      <created>1553039572332</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552962066223</updated>
+      <updated>1553039572332</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16641453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32569557" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
@@ -163,29 +185,12 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Objects.java">
+    <entry file="file://$PROJECT_DIR$/src/StackPushPop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="371" selection-start-line="371" selection-end-line="371" />
+        <state relative-caret-position="343">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
-            <element signature="e#13945#13946#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#137#145#0" expanded="true" />
           </folding>
         </state>
       </provider>
