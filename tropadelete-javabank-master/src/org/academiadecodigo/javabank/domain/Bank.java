@@ -9,7 +9,7 @@ import java.util.Set;
  * The bank entity
  */
 public class Bank {
-
+    private int customerID;
     private AccountManager accountManager;
     private Set<Customer> customers = new HashSet<>();
 
@@ -29,7 +29,8 @@ public class Bank {
      * @see Customer#setAccountManager(AccountManager)
      */
     public void addCustomer(Customer customer) {
-        customer.setCustomerId();
+        this.customerID++;
+        customer.setCustomerId(customerID); //why?
         customers.add(customer);
         customer.setAccountManager(accountManager);
     }
@@ -49,11 +50,23 @@ public class Bank {
 
         return balance;
     }
-public boolean getCustomerId(int id){
-    for (Customer customer : customers) {
-        if(customer.getCustomerId() == id){
 
+    public boolean hasCostumer(int customerN) {
+        //datatype varName : List
+        for (Customer customer : customers) {
+            if (customer.getCustomerId() == customerN) {
+                return true;
+            }
         }
+        return false;
     }
-}
+    public Customer getCustomer(int customerN) {
+        //datatype varName : List
+        for (Customer customer : customers) {
+            if (customer.getCustomerId() == customerN) {
+                return customer;
+            }
+        }
+        return null;
+    }
 }

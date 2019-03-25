@@ -68,7 +68,11 @@ public class Customer {
         return this.customerId;
     }
 
-    public void setCustomerId(){
-        this.customerId++;
+    public void setCustomerId(int id){
+        this.customerId = id;
+    }
+
+    public AccountManager getAccountManager(){
+        return this.accountManager;
     }
 }

@@ -8,9 +8,11 @@ import org.academiadecodigo.javabank.managers.AccountManager;
 
 public class Main {
     public static void main(String[] args) {
+
         //new bank and its account manager
         AccountManager accountManager = new AccountManager();
         Bank bank = new Bank(accountManager);
+
         //new costumers for the bank
         Customer customer = new Customer();
         bank.addCustomer(customer);
@@ -25,9 +27,9 @@ public class Main {
 
         int customerN = prompt.getUserInput(customerNumber);
 
-        bank.checkCostumer(customerN, customer2);
-
-        MainMenu mainMenu = new MainMenu();
-        mainMenu.showQuestion();
+        if (bank.hasCostumer(customerN)) {
+            MainMenu mainMenu = new MainMenu();
+            mainMenu.showQuestion(prompt, bank.getCustomer(customerN));
+        }
     }
 }

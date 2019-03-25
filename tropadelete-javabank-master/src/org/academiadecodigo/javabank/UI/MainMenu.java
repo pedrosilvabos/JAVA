@@ -2,28 +2,25 @@ package org.academiadecodigo.javabank.UI;
 
 import org.academiadecodigo.bootcamp.Prompt;
 import org.academiadecodigo.bootcamp.scanners.menu.MenuInputScanner;
-import org.academiadecodigo.javabank.domain.Bank;
+import org.academiadecodigo.javabank.domain.Customer;
 
 public class MainMenu  {
 
+    public void showQuestion(Prompt prompt, Customer customer) {
 
-    public void showQuestion(Bank bank) {
-
-        Prompt prompt = new Prompt(System.in, System.out);
+        prompt = new Prompt(System.in, System.out);
         //show all the questions in this menu
         String[] options = getQuestions();
 
         MenuInputScanner scanner = new MenuInputScanner(options);
         scanner.setMessage("Welcome to javaBank");
 
-        Validation validation = new Validation();
-        validation.check(bank);
+        // show the menu to the user and get the selected answer
+        int answerIndex = prompt.getUserInput(scanner);
 
-
-        //Questions.values()[answerIndex-1].decision.showQuestion();
-
-       //all the classes implement the QuestionStrategy so they
+        //all the classes implement the QuestionStrategy so they
         //all have the same methods, hence their datatype is the class
+        Questions.values()[answerIndex-1].decision.showQuestion(prompt, customer);
     }
 
     //these are the questions that will be available on this menu
