@@ -18,7 +18,8 @@ public class OpenAccount implements QuestionStrategy {
         question1.setMessage("What is your name?");
         String name = prompt.getUserInput(question1);
 
+        int answerIndex = prompt.getUserInput(scanner);
         customer.getAccountManager().openAccount(AccountType.CHECKING);
-    customer.getAccountManager().openAccount(AccountType.SAVINGS);
+        customer.getAccountManager().openAccount(AccountType.SAVINGS);
     }
 }
