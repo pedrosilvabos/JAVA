@@ -28,10 +28,9 @@ public class Main {
         System.out.println(Collections.frequency(list, "yellow"));
 
         //disjoint compares collections and returns true if they have nothing in common
-
         boolean tof = Collections.disjoint(list,parts);
         if(tof){
-            System.out.println("he lists have nothing in common");
+            System.out.println("The lists have nothing in common");
         }
         else{
             System.out.println("These lists must have something in common!");
